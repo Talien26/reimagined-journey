@@ -6,10 +6,10 @@ function preload() {
 }
 
 function setup(){
-    canvas = createCanvas(500, 700);
+    canvas = createCanvas(500, 1200);
     canvas.center();
     video = createCapture(VIDEO);
-    video.size(500, 700);
+    video.size(500, 1200);
     video.hide();
 
     poseNet = ml5.poseNet(video, modelLoaded);
